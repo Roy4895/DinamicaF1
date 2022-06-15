@@ -1,0 +1,955 @@
+body{
+    letter-spacing: 1px;
+}
+
+.positon-relative{
+    position: relative;
+}
+
+.pd0{
+    padding: 0 !important;
+}
+
+.pdl20{
+    padding-left: 20px;
+}
+
+.pbw{
+    padding-bottom: 7.25rem !important;
+}
+
+.justify-content-center{
+    justify-content: center !important;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.mt5{
+    margin-top: 100px;
+}
+
+.mt5-winner{
+    margin-top: 100px;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 2rem!important;
+}
+
+/************ B A N N E R ************/
+#banner_desktop{
+    display: flex;
+  }
+
+#banner_movil{
+    display: none;
+}
+
+.img-mobile{
+    width: 100%;
+}
+
+.logo{
+    top: 40px;
+    left: 50px;
+    width: 130px;
+    z-index: 1;
+    position: absolute;
+}
+
+.carousel-caption {
+    transform: translateY(-50%);
+    padding-bottom: 3.25rem;
+    /* text-align: left;
+    left: 50px !important; */
+}
+
+.title-f1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.title-formula1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.txt-f1{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/************ F O R M U L A R I O ************/
+.wlogo{
+    width: 30%;
+}
+
+.title{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.title-winners{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.title-label{
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+}
+
+.text{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.mb-label{
+    margin-bottom: 0.5rem;
+}
+
+.bandera-s{
+    right: 1px;
+    position: absolute;
+    z-index: -1;
+    top: -100px;
+    width: 500px; 
+}
+
+.bandera-i{
+    width: 500px; 
+}
+
+.box{
+    width: 40%;
+    background: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    padding: 50px 50px;
+    box-shadow: 0 5px 5px 0 #dadada;
+}
+
+.text-form{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.txt-terminos{
+    color: #020202;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.txt-aviso{
+    color: #020202;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.link{
+    padding-left: 5px;
+}
+
+.icon-i{
+    color: #fff !important;
+}
+
+.btn-trivia{
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px !important;
+    background-color: #e10600;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    text-decoration: none !important;
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.btn-trivia:hover{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #1f1f27;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e10600;
+    border: 1px solid #e10600;
+    border-radius: 0.25rem;
+}
+
+.input-group-text:hover {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #1f1f27;
+    border: 1px solid #1f1f27;
+    border-radius: 0.25rem;
+}
+
+/* Modal Info */
+.title-modal{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.modal-title{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+}
+
+.txt-modal{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.txt-modal-trivia{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.close{
+    background: none !important;
+    border: none !important;
+}
+
+.cerrar{
+    color: #fff;
+}
+
+/* Modal Trivia */
+.sub-txt{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.title-pregunta{
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.preguntas{
+    margin: auto;
+}
+
+.btn-trivia-modal {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    width: 50% !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: #e10600;
+    border-radius: 2px;
+    border: none;
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.btn-trivia-modal:hover {
+    color: #fff;
+    background-color: #FC6C25;
+    border-radius: 2px;
+    border: none;
+}
+
+.form-check-input:checked {
+    background-color: #FC6C25;
+    border-color: #FC6C25;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #1f1f27;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+
+/************ G A N A D O R E S ************/
+.box-winner{
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    border-radius: 5px;
+    height: 60px;
+    align-items: center;
+    box-shadow: 2px 3px 5px 0 #efefef;
+}
+
+.num{
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    color: #1f1f27;
+}
+
+.name{
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    color: #1f1f27;
+}
+
+.poliza{
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    color: #1f1f27;
+}
+
+.texto-winner{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #1f1f27;
+}
+
+
+
+#ganadores_desktop{
+    display: flex;
+}
+
+#ganadores_movil{
+    display: none;
+}
+
+.trofeo{
+    width: 50px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.border-right-winner{
+    border-right: 1px solid #d8d8d8;
+    margin-right: 50px;
+    height: 55px;
+}
+
+.pdl{
+    padding-left: 30px;
+}
+
+.banderas{
+    width: 170px;
+    float: right;
+    margin-right: 35px;
+}
+
+/************ F O O T E R ************/
+.footer-copyright{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+@media only screen and (min-width: 1px) and (max-width: 600px){
+/************ B A N N E R ************/
+.logo{
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 110px;
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+}
+
+#banner_desktop{
+    display: none !important;
+  }
+
+#banner_movil{
+    display: flex;
+}
+
+.carousel-caption {
+    top: 190px;
+    /* transform: translateY(-50%);
+    text-align: left;
+    left: 50px !important;
+    padding-bottom: 3.25rem; */
+}
+
+.title-f1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.title-formula1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.pbw{
+    top: 200px !important;
+}
+
+.txt-f1{
+    font-weight: 200;
+    font-size: 14px
+}
+
+/* Ganadores */
+#ganadores_desktop{
+    display: none !important;
+}
+
+#ganadores_movil{
+    display: flex;
+}
+
+.border-right-winner{
+    border-right: none;
+    margin-right: 0px;
+    height: 55px;
+}
+
+/************ F O R M U L A R I O ************/
+.wlogo{
+    width: 40%;
+}
+
+.title{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.title-winners{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.text{
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.title-label{
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.bandera-s{
+    right: 1px;
+    position: absolute;
+    z-index: -1;
+    top: -100px;
+    width: 250px; 
+}
+
+.bandera-i{
+    width: 250px; 
+}
+
+.box{
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    padding: 50px 20px;
+    box-shadow: 0 5px 5px 0 #dadada;
+}
+
+.btn-trivia{
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #e10600;
+    width: 98%;
+    height: 50px;
+    margin: auto;
+    text-decoration: none !important;
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    pointer-events: auto;
+    background-color: #1f1f27 !important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+/* Modal Trivia */
+.sub-txt{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.txt-modal-trivia{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.title-pregunta{
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/************ G A N A D O R E S ************/
+.mt5-winner{
+    margin-top: 40px;
+}
+
+.pdl{
+    padding-left: 10px;
+}
+
+.pdl20{
+    padding-left: 5px;
+}
+
+.pading-left{
+    padding-left: 0px;
+}
+
+.num{
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    color: #1f1f27;
+}
+
+.name{
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    color: #1f1f27;
+}
+
+.poliza{
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif !important;
+    color: #1f1f27;
+}
+
+.texto-winner{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #1f1f27;
+}
+
+.div-winner{
+    width: 40%;
+
+}
+
+.box-winner{
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    border-radius: 5px;
+    height: 80px;
+    align-items: center;
+    box-shadow: 2px 3px 5px 0 #efefef;
+}
+
+/************ F O O T E R ************/
+.footer-copyright{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+
+}
+
+
+
+@media (min-width: 576px){
+/* Modal Info */
+.modal-dialog {
+    max-width: 700px;
+    margin: 1.75rem auto;
+}
+
+}
+
+@media only screen and (min-width: 555px) and (max-width: 556px){
+.carousel-caption {
+    top: 170px;
+    bottom: 27.25rem;
+    /* transform: translateY(-50%);
+    text-align: left;
+    left: 50px !important;
+    padding-bottom: 3.25rem; */
+}
+
+.pbw{
+    top: 240px !important;
+}
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+/************ B A N N E R ************/
+.box{
+    width: 90%;
+    background: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    padding: 50px 50px;
+    box-shadow: 0 5px 5px 0 #dadada;
+}
+
+.pbw{
+    top: 120px !important;
+}
+
+.logo {
+    top: 20px;
+    left: 30px;
+    width: 110px;
+    z-index: 1;
+    position: absolute;
+}
+
+.title-formula1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+}
+
+
+
+
+/* I P A D */
+@media only screen and (min-width: 820px) and (max-width: 825px) {
+/************ B A N N E R ************/
+.title-f1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.title-formula1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.txt-f1{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.carousel-caption {
+    top: 110px;
+}
+
+.pbw{
+    top: 150px !important;
+}
+
+.logo {
+    top: 20px;
+    left: 35px;
+    width: 110px;
+    z-index: 1;
+    position: absolute;
+}
+
+/************ F O R M U L A R I O ************/
+.title{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.title-winners{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.box{
+    width: 80%;
+    background: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    padding: 50px 50px;
+    box-shadow: 0 5px 5px 0 #dadada;
+}
+
+/************ G A N A D O R E S ************/
+.mt5-winner{
+    margin-top: 40px;
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 770px) {
+/************ B A N N E R ************/
+.title-f1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.title-formula1{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.txt-f1{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.carousel-caption {
+    top: 110px;
+}
+
+.logo {
+    top: 20px;
+    left: 35px;
+    width: 110px;
+    z-index: 1;
+    position: absolute;
+}
+
+.pbw{
+    top: 150px !important;
+}
+
+/************ F O R M U L A R I O ************/
+.title{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.title-winners{
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.box{
+    width: 80%;
+    background: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    padding: 50px 50px;
+    box-shadow: 0 5px 5px 0 #dadada;
+}
+
+/************ G A N A D O R E S ************/
+.mt5-winner{
+    margin-top: 40px;
+}
+
+
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1235px){
+/************ B A N N E R ************/
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: -9.75rem;
+}
+
+.box{
+    width: 50%;
+    background: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    padding: 50px 50px;
+    box-shadow: 0 5px 5px 0 #dadada;
+}
+
+.pbw{
+    padding-bottom: 5.25rem !important;
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 1236px) and (max-width: 1500px){
+/************ B A N N E R ************/
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: -3.75rem;
+}
+
+.box{
+    width: 40%;
+    background: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    padding: 50px 50px;
+    box-shadow: 0 5px 5px 0 #dadada;
+}
+
+.pbw{
+    padding-bottom: 5.25rem !important;
+}
+    
+    
+
+}
+
+
+@media only screen and (min-width: 1500px) and (max-width: 1740px){
+/************ B A N N E R ************/
+.pbw{
+    padding-bottom: 5.25rem !important;
+}
+
+
+
+
+}
+
