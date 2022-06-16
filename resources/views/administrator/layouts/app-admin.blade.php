@@ -102,7 +102,7 @@
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="{{route('administrador/home')}}">CMI</a>
+                <a class="navbar-brand" href="{{route('administrador/home')}}">Dinamica F1</a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -164,6 +164,12 @@
                                     <i class="material-icons mt-0">panorama</i>
                                     <span>Dinamica</span>
                                 </a>
+                            </li> 
+                            <li class="">
+                                <a href="{{route('administrador/questions')}}">
+                                    <i class="material-icons mt-0">panorama</i>
+                                    <span>Questions</span>
+                                </a>
                             </li>
                         </ul>
                     </li>
@@ -182,6 +188,8 @@
         <!-- #END# Right Sidebar -->
     </section>
 @endif
+
+
     @yield('content')
 
 

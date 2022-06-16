@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdministratorsController;
 use App\Http\Controllers\Administrador\PagesController;
 use App\Http\Controllers\Administrador\UsersController;
+use App\Http\Controllers\Administrador\QuestionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,5 +50,13 @@ Route::group(['namespace' => 'Administrador','middleware' => 'auth:admin'], func
     Route::post('administrador/editUsuario', [UsersController::class,'editUsuario'])->name('administrador/editUsuario');
     Route::post('administrador/updateUsuario', [UsersController::class,'updateUsuario'])->name('administrador/updateUsuario');
     Route::post('administrador/deleteUsuario', [UsersController::class,'deleteUsuario'])->name('administrador/deleteUsuario');
+
+
+    Route::get('administrador/questions', [QuestionController::class,'show'])->name('administrador/questions');
+    Route::post('administrador/addQuestion', [QuestionController::class,'addQuestion'])->name('administrador/addQuestion');
+    Route::post('administrador/editQuestion', [QuestionController::class,'editQuestion'])->name('administrador/editQuestion');
+    Route::post('administrador/updateQuestion', [QuestionController::class,'updateQuestion'])->name('administrador/updateQuestion');
+    Route::post('administrador/deleteQuestion', [QuestionController::class,'deleteQuestion'])->name('administrador/deleteQuestion');
+
 
 });
